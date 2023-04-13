@@ -1,0 +1,5 @@
+GameType,MaxPlayers,MinPlayers,CurrentPlayers,Publisher,ReleaseYear,GameTitle,IsMultiplayer
+ComputerGame,4,1,2,Publisher1,2020,Game1,true
+ComputerGame,6,2,3,Publisher2,2019,Game2,false
+GameType,MaxPlayers,MinPlayers,CurrentPlayers,Publisher,ReleaseYear,GameTitle
+BoardingGame,3,1,2,Publisher3,2021,Game3

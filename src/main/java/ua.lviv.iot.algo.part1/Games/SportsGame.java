@@ -17,6 +17,16 @@ public class SportsGame extends Game {
     }
 
 
+    @Override
+    public String toCSV() {
+
+        return super.toCSV() + ',' + hasReferee();
+    }
+
+    @Override
+    public String getHeaders() {
+        return super.getHeaders() + ",HasReferee";
+    }
     public boolean hasReferee() {
         return hasReferee;
     }

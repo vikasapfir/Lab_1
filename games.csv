@@ -1,0 +1,9 @@
+GameType,MaxPlayers,MinPlayers,CurrentPlayers,Publisher,ReleaseYear,GameTitle,HasReferee
+SportsGame,16,2,5,Football Association,1863,Football,true
+GameType,MaxPlayers,MinPlayers,CurrentPlayers,Publisher,ReleaseYear,GameTitle,NumberOfDecks,NumberOfCardsPerDeck
+CardGame,8,2,8,Mattel,1971,UNO,1,56
+GameType,MaxPlayers,MinPlayers,CurrentPlayers,Publisher,ReleaseYear,GameTitle,IsMultiplayer
+ComputerGame,8,1,1,GSC Game World,2023,Stalker2,true
+ComputerGame,4,1,1,GSC Game World,2035,Stalker5,true
+GameType,MaxPlayers,MinPlayers,CurrentPlayers,Publisher,ReleaseYear,GameTitle
+BoardingGame,12,1,1,Parker Brothers,1934,Monopoly

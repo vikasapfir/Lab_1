@@ -5,6 +5,17 @@ public class CardGame extends Game {
     private int numberOfCardsPerDeck;
 
 
+    @Override
+    public String toCSV() {
+
+        return super.toCSV() + "," + getNumberOfDecks() + "," + getNumberOfCardsPerDeck();
+    }
+
+    @Override
+    public String getHeaders() {
+        return super.getHeaders() + ",NumberOfDecks,NumberOfCardsPerDeck";
+    }
+
     public CardGame(int maxPlayers, int minPlayers, int currentPlayers, String publisher, int releaseYear, String gameTitle) {
         super(maxPlayers, minPlayers, currentPlayers, publisher, releaseYear, gameTitle);
     }

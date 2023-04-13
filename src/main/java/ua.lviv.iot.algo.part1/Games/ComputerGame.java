@@ -3,6 +3,8 @@ package ua.lviv.iot.algo.part1.Games;
 
 public class ComputerGame extends Game{
 
+
+
     @Override
     public String toString() {
         return "ComputerGame{" +
@@ -17,6 +19,18 @@ public class ComputerGame extends Game{
         super(maxPlayers, minPlayers, currentPlayers, publisher, releaseYear, gameTitle);
         this.isMultiplayer = isMultiplayer;
     }
+
+    @Override
+    public String toCSV() {
+
+        return super.toCSV() + ',' + isMultiplayer();
+    }
+
+    @Override
+    public String getHeaders() {
+        return super.getHeaders() + ",IsMultiplayer";
+    }
+
 
     @Override
     public void connectPlayer() {
