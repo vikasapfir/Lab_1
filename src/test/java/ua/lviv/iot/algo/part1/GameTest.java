@@ -7,7 +7,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class GameTest {
 
-    
    @Test
     void testConnectPlayer1(){
        ComputerGame game1 = new ComputerGame(2, 1, 2,
